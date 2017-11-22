@@ -1,0 +1,7 @@
+D:\GitHub_Kiki\Tennis\Tennis\bin\Debug\Tennis.dll
+D:\GitHub_Kiki\Tennis\Tennis\bin\Debug\Tennis.pdb
+D:\GitHub_Kiki\Tennis\Tennis\bin\Debug\nunit.framework.dll
+D:\GitHub_Kiki\Tennis\Tennis\bin\Debug\nunit.framework.xml
+D:\GitHub_Kiki\Tennis\Tennis\obj\Debug\Tennis.dll
+D:\GitHub_Kiki\Tennis\Tennis\obj\Debug\Tennis.pdb
+D:\GitHub_Kiki\Tennis\Tennis\obj\Debug\Tennis.csprojResolveAssemblyReference.cache

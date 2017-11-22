@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{816FE297-9A8F-49DE-B8C2-B18B4D51AD18}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BasicNicoVariation</RootNamespace>
+    <AssemblyName>BasicNicoVariation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicNicoVariation.cs" />
+    <Compile Include="BasicNicoVariationTest.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="packages\NUnit.2.6.4\NUnit.2.6.4.nupkg" />
+    <None Include="packages\NUnit.3.5.0\NUnit.3.5.0.nupkg" />
+    <None Include="packages\repositories.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BasicNicoVariation.dll" />
+    <Content Include="bin\Debug\BasicNicoVariation.pdb" />
+    <Content Include="bin\Debug\Bowling.dll" />
+    <Content Include="bin\Debug\Bowling.pdb" />
+    <Content Include="bin\Debug\nunit.framework.dll" />
+    <Content Include="bin\Debug\nunit.framework.xml" />
+    <Content Include="bin\Debug\Tennis.dll" />
+    <Content Include="bin\Debug\Tennis.pdb" />
+    <Content Include="bin\Debug\TennisKata.dll" />
+    <Content Include="bin\Debug\TennisKata.pdb" />
+    <Content Include="packages\NUnit.2.6.4\lib\nunit.framework.dll" />
+    <Content Include="packages\NUnit.2.6.4\lib\nunit.framework.xml" />
+    <Content Include="packages\NUnit.2.6.4\license.txt" />
+    <Content Include="packages\NUnit.3.5.0\CHANGES.txt" />
+    <Content Include="packages\NUnit.3.5.0\lib\dotnet\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.5.0\lib\dotnet\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.5.0\lib\net20\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.5.0\lib\net20\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.5.0\lib\net20\NUnit.System.Linq.dll" />
+    <Content Include="packages\NUnit.3.5.0\lib\net35\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.5.0\lib\net35\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.5.0\lib\net40\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.5.0\lib\net40\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.5.0\lib\net45\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.5.0\lib\net45\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.5.0\lib\portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.5.0\lib\portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.5.0\LICENSE.txt" />
+    <Content Include="packages\NUnit.3.5.0\NOTICES.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

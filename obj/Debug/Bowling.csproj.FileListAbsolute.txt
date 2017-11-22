@@ -1,0 +1,7 @@
+D:\GitHub_Kiki\Bowling\Bowling\bin\Debug\Bowling.dll
+D:\GitHub_Kiki\Bowling\Bowling\bin\Debug\Bowling.pdb
+D:\GitHub_Kiki\Bowling\Bowling\bin\Debug\nunit.framework.dll
+D:\GitHub_Kiki\Bowling\Bowling\bin\Debug\nunit.framework.xml
+D:\GitHub_Kiki\Bowling\Bowling\obj\Debug\Bowling.csprojResolveAssemblyReference.cache
+D:\GitHub_Kiki\Bowling\Bowling\obj\Debug\Bowling.dll
+D:\GitHub_Kiki\Bowling\Bowling\obj\Debug\Bowling.pdb
