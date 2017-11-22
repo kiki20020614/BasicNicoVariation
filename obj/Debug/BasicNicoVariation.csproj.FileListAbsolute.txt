@@ -9,3 +9,4 @@ D:\GitHub_Kiki\BasicNicoVariation\bin\Debug\BasicNicoVariation.dll
 D:\GitHub_Kiki\BasicNicoVariation\bin\Debug\BasicNicoVariation.pdb
 D:\GitHub_Kiki\BasicNicoVariation\obj\Debug\BasicNicoVariation.dll
 D:\GitHub_Kiki\BasicNicoVariation\obj\Debug\BasicNicoVariation.pdb
+D:\GitHub_Kiki\BasicNicoVariation\obj\Debug\BasicNicoVariation.csprojResolveAssemblyReference.cache
