@@ -52,9 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="packages\NUnit.2.6.4\NUnit.2.6.4.nupkg" />
-    <None Include="packages\NUnit.3.5.0\NUnit.3.5.0.nupkg" />
-    <None Include="packages\repositories.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\BasicNicoVariation.dll" />
@@ -67,25 +64,6 @@
     <Content Include="bin\Debug\Tennis.pdb" />
     <Content Include="bin\Debug\TennisKata.dll" />
     <Content Include="bin\Debug\TennisKata.pdb" />
-    <Content Include="packages\NUnit.2.6.4\lib\nunit.framework.dll" />
-    <Content Include="packages\NUnit.2.6.4\lib\nunit.framework.xml" />
-    <Content Include="packages\NUnit.2.6.4\license.txt" />
-    <Content Include="packages\NUnit.3.5.0\CHANGES.txt" />
-    <Content Include="packages\NUnit.3.5.0\lib\dotnet\nunit.framework.dll" />
-    <Content Include="packages\NUnit.3.5.0\lib\dotnet\nunit.framework.xml" />
-    <Content Include="packages\NUnit.3.5.0\lib\net20\nunit.framework.dll" />
-    <Content Include="packages\NUnit.3.5.0\lib\net20\nunit.framework.xml" />
-    <Content Include="packages\NUnit.3.5.0\lib\net20\NUnit.System.Linq.dll" />
-    <Content Include="packages\NUnit.3.5.0\lib\net35\nunit.framework.dll" />
-    <Content Include="packages\NUnit.3.5.0\lib\net35\nunit.framework.xml" />
-    <Content Include="packages\NUnit.3.5.0\lib\net40\nunit.framework.dll" />
-    <Content Include="packages\NUnit.3.5.0\lib\net40\nunit.framework.xml" />
-    <Content Include="packages\NUnit.3.5.0\lib\net45\nunit.framework.dll" />
-    <Content Include="packages\NUnit.3.5.0\lib\net45\nunit.framework.xml" />
-    <Content Include="packages\NUnit.3.5.0\lib\portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10\nunit.framework.dll" />
-    <Content Include="packages\NUnit.3.5.0\lib\portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10\nunit.framework.xml" />
-    <Content Include="packages\NUnit.3.5.0\LICENSE.txt" />
-    <Content Include="packages\NUnit.3.5.0\NOTICES.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
