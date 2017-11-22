@@ -11,24 +11,13 @@ namespace BasicNicoVariation
     [TestFixture]
     public class BasicNicoVariationTest
     {
-        [Test]
-        public void WhenKeyMessageAreEmpty_ReturnEmpty()
-        {
-            var key = string.Empty;
-            var message = string.Empty;
-            var nico = new Nico(key, message);
-
-            var expected = string.Empty;
-
-            Assert.AreEqual(expected, nico.Variation());
-        }
-
-        [TestCase("a","a")]
-        public void WhenHaveKeyMessageValue_ReturnByVariation(string key, string message)
+        [TestCase("", "", "")]
+        [TestCase("a", "a", "a")]
+        public void WhenHaveKeyMessageValue_ReturnByVariation(string key, string message, string expectedValue)
         {
             var nico = new Nico(key, message);
 
-            var expected = "a";
+            var expected = expectedValue;
 
             Assert.AreEqual(expected, nico.Variation());
         }
