@@ -6,12 +6,12 @@ namespace BasicNicoVariation
     {
         public Nico(string key, string message)
         {
-            throw new System.NotImplementedException();
+            //throw new System.NotImplementedException();
         }
 
         public string Variation()
         {
-            throw new System.NotImplementedException();
+            return string.Empty;
         }
     }
 }
