@@ -22,5 +22,15 @@ namespace BasicNicoVariation
 
             Assert.AreEqual(expected, nico.Variation());
         }
+
+        [TestCase("a","a")]
+        public void WhenHaveKeyMessageValue_ReturnByVariation(string key, string message)
+        {
+            var nico = new Nico(key, message);
+
+            var expected = "a";
+
+            Assert.AreEqual(expected, nico.Variation());
+        }
     }
 }

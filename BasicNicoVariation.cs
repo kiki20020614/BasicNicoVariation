@@ -4,14 +4,16 @@ namespace BasicNicoVariation
 {
     public class Nico
     {
+        private string variationValue;
+
         public Nico(string key, string message)
         {
-            //throw new System.NotImplementedException();
+            variationValue = message;
         }
 
         public string Variation()
         {
-            return string.Empty;
+            return variationValue;
         }
     }
 }
